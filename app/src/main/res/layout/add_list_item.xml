@@ -15,4 +15,14 @@
         android:scaleType="fitXY"/>
 
 
+    <ImageView
+        android:id="@+id/ivCheck"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintRight_toRightOf="@+id/ivAddImage"
+        app:layout_constraintBottom_toBottomOf="@+id/ivAddImage"
+        android:src="@drawable/baseline_check_circle_outline_24"
+        android:visibility="invisible"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

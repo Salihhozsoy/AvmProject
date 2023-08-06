@@ -3,6 +3,7 @@ package com.example.avmproject
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 
@@ -16,6 +17,7 @@ class AddStoreAdapter(
 
     class CustomViewHolder(binding: AddListItemBinding) : RecyclerView.ViewHolder(binding.root) {
         val ivAddImage = binding.ivAddImage
+        val ivCheck =binding.ivCheck
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AddStoreAdapter.CustomViewHolder {
@@ -30,7 +32,9 @@ class AddStoreAdapter(
 
         holder.itemView.setOnClickListener {
             onClick(addStores.addStoreImage)
+            holder.ivCheck.isVisible =true
         }
+
     }
 
     override fun getItemCount(): Int {

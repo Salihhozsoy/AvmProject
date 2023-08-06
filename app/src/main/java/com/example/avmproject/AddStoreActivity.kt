@@ -53,9 +53,8 @@ class AddStoreActivity : AppCompatActivity() {
                             val intent = Intent(this@AddStoreActivity, MainActivity::class.java)
                             startActivity(intent)
                         }
-
                         is AddStoreState.Add -> {
-                         //   Toast.makeText(this@AddStoreActivity)
+                            Toast.makeText(this@AddStoreActivity,"Store Added",Toast.LENGTH_LONG).show()
                         }
                     }
                 }
@@ -73,6 +72,7 @@ class AddStoreActivity : AppCompatActivity() {
                         is GetAddStoreState.Result -> {
                             binding.rvAddStore.adapter = AddStoreAdapter(this@AddStoreActivity, Database.addStoreList) {
                                 addStoreUrl = it
+
                             }
                         }
                     }

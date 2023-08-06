@@ -86,7 +86,7 @@ object Database {
         Store(
             10,
             "Decathlon",
-            "https://fbfad05d.cdn.akinoncloud.com/static_omnishop/vn-133/img/vakko-logo-w.png",
+            "https://w7.pngwing.com/pngs/544/30/png-transparent-decathlon-hd-logo.png",
             "A Block",
             "1.Floor",
             "All Category"
@@ -94,7 +94,7 @@ object Database {
         Store(
             11,
             "Burger King",
-            "https://fbfad05d.cdn.akinoncloud.com/static_omnishop/vn-133/img/vakko-logo-w.png",
+            "https://img2.pngindir.com/20180330/xaq/kisspng-hamburger-the-burger-king-logo-restaurant-burger-king-5abdff6d72e166.6856638315224011334706.jpg",
             "A Block",
             "1.Floor",
             "Fast Food"
@@ -102,7 +102,7 @@ object Database {
         Store(
             12,
             "Tavuk Dünyası",
-            "https://fbfad05d.cdn.akinoncloud.com/static_omnishop/vn-133/img/vakko-logo-w.png",
+            "https://istinyepark.com.tr/data-stores/tavuk-dunyasi-logo.png",
             "A Block",
             "1.Floor",
             "Chicken Store"
@@ -110,7 +110,7 @@ object Database {
         Store(
             13,
             "Destan Restaurant",
-            "https://fbfad05d.cdn.akinoncloud.com/static_omnishop/vn-133/img/vakko-logo-w.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/2560px-McDonald%27s_logo.svg.png",
             "A Block",
             "1.Floor",
             "Handmade Meals"
@@ -118,7 +118,7 @@ object Database {
         Store(
             14,
             "Pizza2Go",
-            "https://fbfad05d.cdn.akinoncloud.com/static_omnishop/vn-133/img/vakko-logo-w.png",
+            "https://pizza2go.com.tr/wp-content/uploads/2022/11/logo-300x82.png",
             "A Block",
             "1.Floor",
             "Pizza Store"
@@ -130,9 +130,9 @@ object Database {
         AddStore(1, "https://www.forumistanbul.com.tr/media/image/adidaslogo.jpg"),
         AddStore(2, "https://www.forumistanbul.com.tr/media/image/adl.png"),
         AddStore(3, "https://www.forumistanbul.com.tr/media/image/Altinyildiz.jpg"),
-        AddStore(4, "https://www.forumistanbul.com.tr/magaza/arcelik"),
+        AddStore(4, "https://www.forumistanbul.com.tr/media/image/XXAS0ZMNGDYFA0.jpg"),
         AddStore(5, "https://www.forumistanbul.com.tr/media/image/5SIKXGQL3AEJEQ.jpg"),
-        AddStore(6, "https://www.forumistanbul.com.tr/magaza/bambi"),
+        AddStore(6, "https://www.forumistanbul.com.tr/media/image/etstur.png"),
         AddStore(7, "https://www.forumistanbul.com.tr/media/image/bershka.jpg"),
         AddStore(8, "https://www.forumistanbul.com.tr/media/image/Boyner%20Logo%20640x360%20(1).png"),
         AddStore(9, "https://www.forumistanbul.com.tr/media/image/bosch.jpg"),
