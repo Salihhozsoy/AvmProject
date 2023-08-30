@@ -9,7 +9,6 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.example.avmproject.databinding.ActivityAddStoreBinding
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 class AddStoreActivity : AppCompatActivity() {
@@ -38,7 +37,7 @@ class AddStoreActivity : AppCompatActivity() {
             val description = binding.etDescription.text.toString()
 
             val store = Store(id.toInt(), name, addStoreUrl!!, block, floor, description)
-            viewModel.AddStore(store)
+            viewModel.addStore(store)
         }
 
     }
@@ -46,7 +45,7 @@ class AddStoreActivity : AppCompatActivity() {
    private fun observeAddStore() {
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
-                viewModel.addstoreState.collect {
+                viewModel.addStoreState.collect {
                     when (it) {
                         is AddStoreState.Idle -> {}
                         is AddStoreState.Intent -> {
